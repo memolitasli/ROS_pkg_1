@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg = "memoli_paket" name = "publisher" type = "pub.py"/>
+    <node pkg = "memoli_paket" name = "subscriber" type = "sub.py"/>
+    <node pkg = "memoli_paket" name = "kamera" type = "camera.py"/>
+    <node pkg = "memoli_paket" name = "robotKontrol" type = "robot_kontrol.py"/>
+    <node pkg = "memoli_paket" name = "lidar" type = "lidar.py"/>
+    <node pkg = "memoli_paket" name = "robot_bilgi" type = "robot_bilgi.py"/>
+
+</launch>
